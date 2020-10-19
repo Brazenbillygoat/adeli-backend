@@ -4,7 +4,7 @@ class CreateItems < ActiveRecord::Migration[6.0]
       t.string :name
       t.float :regular
       t.float :large
-      t.text :ingredients
+      t.text :description
       t.belongs_to :category
 
 
