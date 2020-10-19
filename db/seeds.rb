@@ -96,6 +96,32 @@ Item.create(name: "Chicken Salad", regular: 8.49, large: null, ingredients: "Hou
 Item.create(name: "Tuna Salad", regular: 8.49, large: null, ingredients: "Housemade Tuna Salad on Top of a bed of Lettuce, Tomato, Onion, Peppers. Dressing on the side", category_id: 5)
 Item.create(name: "Veggie Salad", regular: 8.49, large: null, ingredients: "American & Provolone Cheeses, Lettuce, Tomato, Onion, Peppers, Sweet Peppers, Mushrooms - Dressing of your choice", category_id: 5)
 
-#Kids Meal
-Item.create(name: "Kids Meal", regular: 6.99, large: null, ingredients: "Kids Sized Sandwich, Small Bag of Chips & a Canned Drink", category_id: 5)
+#KIDS MEAL
+Item.create(name: "Kids Meal", regular: 6.99, large: null, ingredients: "Kids Sized Sandwich, Small Bag of Chips & a Canned Drink", category_id: 6)
+
+#CHIPS & SIDES
+Item.create(name: "Dirty Chips", regular: 2.00, large: 4.29, ingredients: "Kettle-Cooked in Peanut Oil", category_id: 7)
+Item.create(name: "Route 11 Chips", regular: 2.00, large: 4.29, ingredients: "Kettle-Cooked in small batches", category_id: 7)
+Item.create(name: "Zapp's Chips", regular: 2.00, large: null, ingredients: "Kettle-Cooked in Peanut Oil, with a Cajun flare", category_id: 7)
+Item.create(name: "Deep River Chips", regular: 2.00, large: null, ingredients: "Kettle-Cooked in Sunflower Oil", category_id: 7)
+Item.create(name: "Good Health Chips", regular: 4.29, large: null, ingredients: "Large 5 oz bag", category_id: 7)
+Item.create(name: "Good Health Veggie Straws", regular: 4.29, large: null, ingredients: "Large 6.25 oz bag", category_id: 7)
+Item.create(name: "Utz", regular: 2.00, large: null, ingredients: "", category_id: 7)
+Item.create(name: "Lays", regular: 2.00, large: null, ingredients: "", category_id: 7)
+Item.create(name: "Frito-Lay", regular: 2.00, large: null, ingredients: "", category_id: 7)
+Item.create(name: "Doritos", regular: 2.00, large: null, ingredients: "", category_id: 7)
+Item.create(name: "Ruffles", regular: 2.00, large: null, ingredients: "", category_id: 7)
+Item.create(name: "Italian Veggie Pasta Salad", regular: 3.99, large: 6.99, ingredients: "Fusilli Pasta, Veggies & Olives in our homemade Dijon Vinaigrette", category_id: 7)
+Item.create(name: "Macaroni Salad", regular: 2.49, large: 4.99, ingredients: "", category_id: 7)
+Item.create(name: "Potato", regular: 2.49, large: 4.99, ingredients: "", category_id: 7)
+Item.create(name: "Coleslaw", regular: 2.49, large: 4.99, ingredients: "", category_id: 7)
+Item.create(name: "Homemade Chicken Salad", regular: 5.49, large: 10.99, ingredients: "Fresh, homemade Chicken Salad (1/2lb or 1lb options)", category_id: 7)
+Item.create(name: "Fresh, homemade Tuna Salad", regular: 5.49, large: 10.99, ingredients: "Fresh, homemade Tuna Salad (1/2lb or 1lb options)", category_id: 7)
+Item.create(name: "Mixed Olives", regular: 4.50, large: 8.99, ingredients: "A mixture of our house marinated olives", category_id: 7)
+Item.create(name: "Marinated Mini Mozzarella Balls", regular: 6.99, large: 12.99, ingredients: "Fresh Mozzarella marinated in a blend of Italian herbs & extra virgin olive oil", category_id: 7)
+Item.create(name: "Whole Dill Pickle", regular: 1.19, large: null, ingredients: "", category_id: 7)
+Item.create(name: "Stuffed Pepper", regular: 2.29, large: null, ingredients: "Hot Cherry Pepper stuffed with Proscuitto & Imported Provolone", category_id: 7)
+
+
+
 
