@@ -5,7 +5,7 @@ class CategoriesController < ApplicationController
   end
 
   def show
-    render json: Category
+    # render json: Category
   end
 
 end
