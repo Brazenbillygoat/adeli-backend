@@ -10,4 +10,8 @@ class OrdersController < ApplicationController
     # render json: 
   end
 
+  def create
+    byebug
+  end
+
 end
