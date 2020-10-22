@@ -3,7 +3,7 @@ Category.destroy_all()
 Item.destroy_all()
 
 italian_specialties = Category.create(name: "Italian Specialties")
-deli_sandwiches_subs = Category.create(name: "Deli Sandwiiches & Subs")
+deli_sandwiches_subs = Category.create(name: "Deli Sandwiches & Subs")
 hot_subs_sandwiches = Category.create(name: "Hot Subs/Sandwiches")
 entrees = Category.create(name: "Entrees")
 salads = Category.create(name: "Salads")
