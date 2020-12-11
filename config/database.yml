@@ -78,11 +78,15 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+# production:
+#   <<: *default
+#   database: a_deli_website_backend_production
+#   username: a_deli_website_backend
+#   # username: Brazenbillygoat
+#   password: <%= ENV['A_DELI_WEBSITE_BACKEND_DATABASE_PASSWORD'] %>
+#   # password: ElephantsAreFun2!
+
 production:
   <<: *default
-  database: a_deli_website_backend_production
-  username: a_deli_website_backend
-  # username: Brazenbillygoat
-  password: <%= ENV['A_DELI_WEBSITE_BACKEND_DATABASE_PASSWORD'] %>
-  # password: ElephantsAreFun2!
-
+  adapter: postgresql
+  database: db/production.sqlite3
